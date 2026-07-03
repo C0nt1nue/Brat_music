@@ -1,0 +1,101 @@
+song_id,title,artist,album,genre,duration_seconds,play_count,like_count,liked,last_played
+song_001,Bohemian Rhapsody,Queen,A Night at the Opera,ROCK,354,1200,856,true,1717200000
+song_002,Take Five,Dave Brubeck,Time Out,JAZZ,324,580,320,false,0
+song_003,Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,ROCK,482,980,720,true,1717000000
+song_004,Hotel California,Eagles,Hotel California,ROCK,391,1500,1100,true,1717500000
+song_005,Blinding Lights,The Weeknd,After Hours,POP,200,3200,2800,true,1718200000
+song_006,Shape of You,Ed Sheeran,Divide,POP,233,2800,2400,true,1718000000
+song_007,So What,Miles Davis,Kind of Blue,JAZZ,561,420,290,false,0
+song_008,Take Me Home Country Roads,John Denver,Poems Prayers & Promises,COUNTRY,190,650,430,true,1716000000
+song_009,Lose Yourself,Eminem,8 Mile Soundtrack,HIP_HOP,326,2100,1800,true,1717800000
+song_010,Clair de Lune,Claude Debussy,Bergamasque Suite,CLASSICAL,312,380,210,false,0
+song_011,Around the World,Daft Punk,Homework,ELECTRONIC,427,780,520,true,1715000000
+song_012,Superstition,Stevie Wonder,Talking Book,RNB,245,890,670,true,1716800000
+song_013,Enter Sandman,Metallica,Metallica,METAL,331,1100,850,true,1717200000
+song_014,The Sound of Silence,Simon & Garfunkel,Wednesday Morning 3 AM,FOLK,205,720,540,false,0
+song_015,Despacito,Luis Fonsi,Vida,LATIN,228,2600,2100,true,1718500000
+song_016,No Woman No Cry,Bob Marley,Legend,REGGAE,250,920,680,true,1715500000
+song_017,The Thrill Is Gone,B.B. King,Completely Well,BLUES,324,340,190,false,0
+song_018,Fluorescent Adolescent,Arctic Monkeys,Favourite Worst Nightmare,INDIE,173,620,440,true,1716200000
+song_019,Smells Like Teen Spirit,Nirvana,Nevermind,ROCK,301,1800,1400,true,1717700000
+song_020,Bad Guy,Billie Eilish,When We All Fall Asleep,POP,194,2500,2100,true,1718300000
+song_021,Giant Steps,John Coltrane,Giant Steps,JAZZ,286,390,260,false,0
+song_022,Jolene,Dolly Parton,Jolene,COUNTRY,162,720,500,true,1715800000
+song_023,HUMBLE.,Kendrick Lamar,DAMN.,HIP_HOP,177,1900,1600,true,1717900000
+song_024,Four Seasons - Spring,Vivaldi,The Four Seasons,CLASSICAL,210,450,280,false,0
+song_025,Strobe,Deadmau5,For Lack of a Better Name,ELECTRONIC,637,560,380,true,1714600000
+song_026,Respect,Aretha Franklin,I Never Loved a Man,RNB,147,760,590,false,0
+song_027,Master of Puppets,Metallica,Master of Puppets,METAL,515,980,750,true,1716900000
+song_028,Blowin in the Wind,Bob Dylan,The Freewheelin Bob Dylan,FOLK,168,540,390,false,0
+song_029,Mi Gente,J Balvin,Vibras,LATIN,189,1500,1100,true,1718100000
+song_030,Three Little Birds,Bob Marley,Exodus,REGGAE,180,850,620,true,1716300000
+song_031,Sweet Home Chicago,Robert Johnson,King of the Delta Blues,BLUES,180,280,160,false,0
+song_032,Mr Brightside,The Killers,Hot Fuss,INDIE,222,1300,980,true,1717600000
+song_033,Back in Black,AC/DC,Back in Black,ROCK,255,1600,1200,true,1717100000
+song_034,Levitating,Dua Lipa,Future Nostalgia,POP,203,2200,1900,true,1718400000
+song_035,My Funny Valentine,Chet Baker,Chet Baker Sings,JAZZ,237,310,200,false,0
+song_036,Ring of Fire,Johnny Cash,Ring of Fire,COUNTRY,157,640,450,false,0
+song_037,Sicko Mode,Travis Scott,Astroworld,HIP_HOP,312,1700,1400,true,1718000000
+song_038,Moonlight Sonata,Beethoven,Piano Sonata No 14,CLASSICAL,420,520,340,false,0
+song_039,Midnight City,M83,Hurry Up We're Dreaming,ELECTRONIC,244,690,470,true,1715400000
+song_040,I Heard It Through the Grapevine,Marvin Gaye,In the Groove,RNB,199,780,560,false,0
+song_041,Chop Suey,System of a Down,Toxicity,METAL,210,890,670,true,1716700000
+song_042,This Land Is Your Land,Woody Guthrie,This Land Is Your Land,FOLK,157,380,250,false,0
+song_043,Hips Don't Lie,Shakira,Oral Fixation Vol 2,LATIN,218,1800,1400,true,1718200000
+song_044,Buffalo Soldier,Bob Marley,Confrontation,REGGAE,256,710,510,false,0
+song_045,Red House,Jimi Hendrix,Are You Experienced,BLUES,230,420,290,false,0
+song_046,Dog Days Are Over,Florence + The Machine,Lungs,INDIE,252,810,590,true,1716400000
+song_047,Purple Rain,Prince,Purple Rain,ROCK,521,1100,890,true,1717300000
+song_048,Watermelon Sugar,Harry Styles,Fine Line,POP,174,2300,2000,true,1718600000
+song_049,Feeling Good,Nina Simone,I Put a Spell on You,JAZZ,177,460,310,false,0
+song_050,Friends in Low Places,Garth Brooks,No Fences,COUNTRY,247,550,380,false,0
+song_051,Alright,Kendrick Lamar,To Pimp a Butterfly,HIP_HOP,219,1400,1200,true,1717500000
+song_052,Canon in D,Pachelbel,Canon and Gigue,CLASSICAL,276,490,310,false,0
+song_053,Levels,Avicii,True,ELECTRONIC,193,1400,1100,true,1717200000
+song_054,Blame It on the Boogie,The Jacksons,Destiny,RNB,208,620,430,false,0
+song_055,Paranoid,Black Sabbath,Paranoid,METAL,173,780,590,true,1716500000
+song_056,The Boxer,Simon & Garfunkel,Bridge Over Troubled Water,FOLK,308,490,350,false,0
+song_057,Havana,Camila Cabello,Camila,LATIN,217,1900,1500,true,1718300000
+song_058,One Love,Bob Marley,Exodus,REGGAE,202,890,650,true,1715700000
+song_059,Pride and Joy,Stevie Ray Vaughan,Texas Flood,BLUES,220,370,250,false,0
+song_060,1901,Phoenix,Wolfgang Amadeus Phoenix,INDIE,189,670,480,true,1716100000
+song_061,Comfortably Numb,Pink Floyd,The Wall,ROCK,383,950,780,true,1717000000
+song_062,Señorita,Shawn Mendes & Camila Cabello,Señorita,POP,191,2400,2000,true,1718500000
+song_063,Rhapsody in Blue,George Gershwin,Rhapsody in Blue,CLASSICAL,820,340,220,false,0
+song_064,In Da Club,50 Cent,Get Rich or Die Tryin,HIP_HOP,193,1600,1300,true,1717700000
+song_065,Dancing Queen,ABBA,Arrival,POP,231,1800,1500,true,1715100000
+song_066,Wish You Were Here,Pink Floyd,Wish You Were Here,ROCK,334,870,720,false,0
+song_067,Blue Train,John Coltrane,Blue Train,JAZZ,643,350,240,false,0
+song_068,Crazy,Patsy Cline,Showcase,COUNTRY,165,430,300,false,0
+song_069,One More Time,Daft Punk,Discovery,ELECTRONIC,320,920,680,true,1715600000
+song_070,What's Going On,Marvin Gaye,What's Going On,RNB,233,680,510,false,0
+song_071,Nothing Else Matters,Metallica,Metallica,METAL,388,860,670,true,1716800000
+song_072,Scarborough Fair,Simon & Garfunkel,Parsley Sage Rosemary and Thyme,FOLK,190,410,290,false,0
+song_073,Echame La Culpa,Luis Fonsi & Demi Lovato,Vida,LATIN,173,1300,950,true,1718000000
+song_074,Jamming,Bob Marley,Exodus,REGGAE,211,780,560,true,1715900000
+song_075,Crossroads,Cream,Wheels of Fire,BLUES,256,390,270,false,0
+song_076,Reptilia,The Strokes,Room on Fire,INDIE,219,750,540,true,1716600000
+song_077,Sweet Child O Mine,Guns N Roses,Appetite for Destruction,ROCK,356,1400,1100,true,1717400000
+song_078,Blinding Lights,The Weeknd,After Hours,POP,200,3100,2700,true,1718700000
+song_079,Autumn Leaves,Bill Evans,Portrait in Jazz,JAZZ,360,290,180,false,0
+song_080,Man I Feel Like a Woman,Shania Twain,Come On Over,COUNTRY,233,580,400,false,0
+song_081,God's Plan,Drake,Scorpion,HIP_HOP,198,2200,1800,true,1718100000
+song_082,Für Elise,Beethoven,Bagatelle No 25,CLASSICAL,163,560,370,false,0
+song_083,Sandstorm,Darude,Before the Storm,ELECTRONIC,226,870,610,true,1715300000
+song_084,Let's Stay Together,Al Green,Let's Stay Together,RNB,196,640,470,false,0
+song_085,Hallowed Be Thy Name,Iron Maiden,The Number of the Beast,METAL,428,720,540,true,1716600000
+song_086,Heart of Gold,Neil Young,Harvest,FOLK,187,450,320,false,0
+song_087,Taki Taki,DJ Snake,Carte Blanche,LATIN,212,1600,1200,true,1718400000
+song_088,Is This Love,Bob Marley,Kaya,REGGAE,232,670,490,false,0
+song_089,Stormy Monday,T-Bone Walker,Stormy Monday Blues,BLUES,245,260,150,false,0
+song_090,Take Me Out,Franz Ferdinand,Franz Ferdinand,INDIE,237,820,600,true,1716300000
+song_091,Bohemian Rhapsody,Queen,A Night at the Opera,ROCK,354,1200,850,false,0
+song_092,Halo,Beyoncé,I Am Sasha Fierce,POP,261,1700,1400,true,1717000000
+song_093,Round Midnight,Thelonious Monk,Genius of Modern Music,JAZZ,318,280,190,false,0
+song_094,Need You Now,Lady A,Need You Now,COUNTRY,236,590,410,false,0
+song_095,Old Town Road,Lil Nas X,7,HIP_HOP,113,2600,2200,true,1718600000
+song_096,The Nutcracker Suite,Tchaikovsky,The Nutcracker,CLASSICAL,480,410,250,false,0
+song_097,Titanium,David Guetta,Nothing But the Beat,ELECTRONIC,245,1100,850,true,1717100000
+song_098,End of the Road,Boyz II Men,Cooleyhighharmony,RNB,252,550,380,false,0
+song_099,Ace of Spades,Motörhead,Ace of Spades,METAL,166,620,450,true,1716200000
+song_100,Where Have All the Flowers Gone,Pete Seeger,Where Have All the Flowers Gone,FOLK,186,340,230,false,0

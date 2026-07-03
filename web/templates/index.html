@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐流媒体播放列表引擎 Music Streaming Playlist Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="app-header">
+        <h1>音乐流媒体播放列表引擎 <span class="h1-en">Music Streaming Playlist Engine</span></h1>
+        <div class="header-controls">
+            <button id="btn-reload" class="btn btn-sm" title="重新加载数据 Reload dataset">&#8635;</button>
+            <button id="btn-import" class="btn btn-sm" title="导入CSV文件 Import CSV">导入 Import CSV</button>
+            <input type="file" id="csv-file-input" accept=".csv" style="display:none">
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Left panel: Playlist (DLL) -->
+        <section class="panel panel-playlist">
+            <div class="panel-header">
+                <h2>播放列表 Playlist</h2>
+                <span class="badge" id="playlist-size">0</span>
+            </div>
+            <div class="panel-controls">
+                <button id="btn-shuffle" class="btn btn-sm">随机 Shuffle</button>
+                <button id="btn-smart-shuffle" class="btn btn-sm">智能洗牌 Smart Shuffle</button>
+            </div>
+            <div class="playlist-list" id="playlist-list">
+                <p class="placeholder">加载中 Loading...</p>
+            </div>
+            <div class="add-song-bar">
+                <input type="text" id="add-song-input" placeholder="搜索添加 Search to add..." class="input-sm">
+                <div id="add-song-results" class="add-song-results"></div>
+            </div>
+        </section>
+
+       <!-- Center column: Now Playing (compact) + middle panels -->
+       <div class="center-col">
+           <!-- Now Playing - compact bar -->
+           <section class="panel panel-nowplaying">
+               <div class="nowplaying-bar">
+                   <div class="np-info" id="nowplaying-detail">
+                       <p class="placeholder">未选择歌曲 No song selected</p>
+                   </div>
+                   <div class="player-controls">
+                       <button id="btn-prev" class="btn btn-icon" title="上一首 Previous">&#9664;&#9664;</button>
+                       <button id="btn-like" class="btn btn-icon" title="点赞 Like">&#9825;</button>
+                       <button id="btn-next" class="btn btn-icon" title="下一首 Next">&#9654;&#9654;</button>
+                   </div>
+               </div>
+           </section>
+
+            <!-- Scrollable compact panels -->
+            <div class="center-panels">
+                <div class="compact-panel">
+                    <div class="compact-header"><h2>目录搜索 Catalogue Search</h2></div>
+                    <div class="search-bar">
+                        <input type="text" id="search-input" placeholder="按标题搜索 Search by title..." class="input-sm">
+                        <button id="btn-search" class="btn btn-sm">搜索 Search</button>
+                    </div>
+                    <div class="search-filters">
+                        <select id="genre-filter" class="select-sm">
+                            <option value="">全部风格 All Genres</option>
+                        </select>
+                        <input type="text" id="artist-filter" placeholder="艺术家 Artist..." class="input-sm" style="max-width:120px">
+                        <button id="btn-range-search" class="btn btn-sm">范围 Range</button>
+                    </div>
+                    <div id="search-results" class="search-results"></div>
+                </div>
+
+                <div class="compact-panel">
+                    <div class="compact-header"><h2>推荐 Recommendations</h2><button id="btn-refresh-recs" class="btn btn-sm">刷新 Refresh</button></div>
+                    <div id="recommendations-container" class="rec-cards"></div>
+                </div>
+
+                <div class="compact-panel">
+                    <div class="compact-header"><h2>播放列表分析 Analytics</h2></div>
+                    <div id="analytics-content" class="analytics-content"></div>
+                </div>
+
+                <div class="compact-panel">
+                    <div class="compact-header"><h2>品味转变 Taste Shift</h2></div>
+                    <div id="taste-content" class="taste-content"></div>
+                    <div class="taste-controls">
+                        <label>从 From: <select id="sim-from" class="select-sm"></select></label>
+                        <label>到 To: <select id="sim-to" class="select-sm"></select></label>
+                        <button id="btn-simulate" class="btn btn-sm">模拟 Simulate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right panel: Autoplay Queue (Heap) -->
+        <section class="panel panel-autoplay">
+            <div class="panel-header">
+                <h2>自动播放队列 Autoplay Queue</h2>
+                <span class="badge" id="autoplay-size">0</span>
+            </div>
+           <div class="panel-controls">
+               <button id="btn-autoplay-next" class="btn btn-sm">播放下一首 Play Next</button>
+                <button id="btn-autoplay-seq" class="btn btn-sm">自动播放 Auto Play</button>
+           </div>
+            <div class="heap-view" id="heap-view">
+                <p class="placeholder">加载中 Loading...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+       <span>双向链表 DLL | 二叉搜索树 BST | 最大堆 Max-Heap | EMA + KL散度 Divergence</span>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=4"></script>
+    <script src="{{ url_for('static', filename='js/playlist-view.js') }}?v=4"></script>
+    <script src="{{ url_for('static', filename='js/heap-view.js') }}?v=4"></script>
+    <script src="{{ url_for('static', filename='js/search.js') }}?v=4"></script>
+    <script src="{{ url_for('static', filename='js/recommendations.js') }}?v=4"></script>
+</body>
+</html>
